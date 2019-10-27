@@ -251,25 +251,29 @@ li {
   opacity: 1;
 }
 
-.cart-overide-img{
+.cart-overide-img {
   position: absolute;
-  text-align: center;
+  text-align: left;
   bottom: 0;
-  left: 0;
+  right: 0;
   display: block;
   width: 50px;
   height: 50px;
   background-color: rgb(252, 99, 72);
-  transform: translate(-25px, 25px);
+  transform: translate(22px, 25px);
   border-radius: 25px;
   opacity: 1;
   transition: 0.5s ease;
   transform-style: flat;
-  padding: 4px 0px 0px 18px;
   color: white;
+  font-weight: normal;
 }
 
-.cart-overide-img-add:hover{
+.cart-overide-img-add {
+  padding: 8px 0px 0px 10px;
+}
+
+.cart-overide-img-add:hover {
   transform: rotate(340deg);
 }
 
@@ -282,23 +286,32 @@ li {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.text-item-cmt {
+.three-text {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: -0.5px;
-  color: rgb(46, 46, 46);
-  padding: 2px;
   width: 100%;
-  height: 42px;
+  padding: 2px;
+  text-align: left;
+}
+
+.text-item-cmt-one {
+  color: rgb(46, 46, 46);
+  height: 20px;
   overflow: hidden;
 }
+
+.text-item-cmt-two {
+  color: rgb(139, 139, 139);
+  height: 20px;
+  font-size: 12px;
+  overflow: hidden;
+}
+
 .price {
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: -0.5px;
-  width: 100%;
   color: tomato;
-  padding: 1px 6px 1px;
-  text-align: right;
   font-weight: bold;
+  height: 20px;
+  overflow: hidden;
 }
 /* end hieu ung mo anh  */
 
